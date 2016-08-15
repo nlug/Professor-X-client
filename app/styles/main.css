@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+body {
+  padding-top: 40px;
+  font-family: 'Lobster', cursive;
+}
+.box {
+  background-color: #FAE3C6;
+  border-radius: 5px;
+  color: #F564A9;
+  padding: 10px;
+}
+.box form {
+  padding: 20px;
+}
+.footer {
+  padding-top: 60px;
+}
+.btn-xmen {
+  background-color: #533B4D;
+}
+.btn-xmen:hover {
+  color: #C1ABA6
+}
+.title {
+  color: #533B4D;
+  font-size: 4em;
+}
+.avatar {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 8px auto;
+  cursor: pointer;
+}
+a {
+  font-size: 1.4em;
+}
+a:hover {
+  text-decoration: none;
+
+}
+.avt-wraper {
+  position: relative;
+}
+.action {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #F564A9;
+}
+.action:hover {
+  color: #FAA4BD;
+}
+.number {
+  color: #F564A9;
+}

@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h1 class="title">Project X</h1>
+    <br>
+  </div>
+  <div class="col-sm-7 text-center row">
+    <h1>Get suggest for...</h1>
+    <br>
+    <div class="col-sm-4" ng-repeat="xmen in xmens">
+      <a href="#/xmen/{{xmen.UID}}"><img src="{{xmen.avatar}}" alt="{{xmen.name}}" class="img-thumbnail img-circle avatar"></a>
+      {{xmen.name}}
+    </div>
+  </div>
+  <div class="col-sm-4 col-sm-offset-1 text-center box">
+    <h1>Add Xmen</h1>
+    <br>
+    <form class="text-left" ng-init="newXmen">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" ng-model="newXmen.name" placeholder="Wolverine">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Avatar</label>
+        <input type="text" class="form-control" ng-model="newXmen.avatar" placeholder="http://wolverine.com/avatar.png">
+      </div>
+      <button type="submit" class="btn btn-xmen" ng-click="add()">Submit</button> {{message}}
+    </form>
+  </div>
+</div>
