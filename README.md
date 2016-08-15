@@ -11,4 +11,7 @@ Chạy `grunt` để cài đặt
 
 Chạy `grunt serve` để chạy thử
 
+# Tạo product
+`grunt build` sẽ tạo ra product version tại folder dist
+
 Gửi tới các bạn bởi [CuThanh](http://cuthanh.com)
