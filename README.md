@@ -1,12 +1,14 @@
-# projectx
+# Professor-X-client
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
-## Build & development
+# Hướng dẫn cài đặt
 
-Run `grunt` for building and `grunt serve` for preview.
+Chạy `grunt` để cài đặt
 
-## Testing
+# Chạy thử
 
-Running `grunt test` will run the unit tests with karma.
+Chạy `grunt serve` để chạy thử
+
+Gửi tới các bạn bởi [CuThanh](http://cuthanh.com)
