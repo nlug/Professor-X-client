@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
-var apiUrl = "http://localhost:2700"
+var apiUrl = "http://localhost:2700" // Change your api url here
 angular
   .module('projectxApp', [
     'ngAnimate',
